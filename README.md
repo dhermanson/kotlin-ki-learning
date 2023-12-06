@@ -59,3 +59,6 @@ java -cp ./path/to/configuration.jar \
 -jar \
 -Dconfig.class=com.dt2js.ki.conf.MyFantasticConfiguration /usr/local/Cellar/ki/0.5.2/libexec/ki-shell.jar
 ```
+
+## Ideas
+Projects could pull in KI as a dependency and create a gradle module which runs the shell. This would give you a nice, project-scoped REPL.
